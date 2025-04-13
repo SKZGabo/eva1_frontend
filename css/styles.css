@@ -1,0 +1,33 @@
+/* Estilos por etiqueta */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Estilos por clase */
+  .evento-card {
+    border: 2px solid #ff007f;
+    transition: transform 0.3s;
+  }
+  
+  .evento-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos por ID */
+  #contacto {
+    background-image: url('img/bg-contacto.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+  
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
